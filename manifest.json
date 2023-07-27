@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Focus: Batch Open & Close Websites.",
+  "description": "This extension opens predefined websites on click, and closes non-listed domains on double-click.",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "permissions": ["tabs", "scripting", "storage", "contextMenus"],
+  "options_page": "options.html",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}

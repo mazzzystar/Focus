@@ -1,0 +1,68 @@
+window.addEventListener('DOMContentLoaded', function() {
+  let websiteList = document.getElementById('websiteList');
+  let addWebsiteButton = document.getElementById('addWebsite');
+  let form = document.getElementById('optionsForm');
+  let reverseSwitch = document.getElementById('reverseSwitch');
+  let reverseExplanation = document.getElementById('reverseExplanation');
+
+  // Load the websites and reverse switch state from storage and populate the form
+  chrome.storage.sync.get(['websites', 'reverse'], function(data) {
+    let websites = data.websites || [];
+    reverseSwitch.checked = data.reverse || false;
+    reverseExplanation.textContent = reverseSwitch.checked ?
+      "When reversed, double-clicking will close all tabs for domains and subdomains listed above." :
+      "When not reversed, double-clicking will close all tabs that are not in the list above.";
+    for (let i = 0; i < websites.length; i++) {
+      addWebsiteInput(websites[i]);
+    }
+  });
+
+  // Update the reverse explanation and save the new state when the reverse switch state changes
+  reverseSwitch.addEventListener('change', function() {
+    reverseExplanation.textContent = reverseSwitch.checked ?
+      "When reversed, double-clicking will close all tabs for domains and subdomains listed above." :
+      "When not reversed, double-clicking will close all tabs that are not in the list above.";
+    chrome.storage.sync.set({ reverse: reverseSwitch.checked });
+  });
+
+  // Save the websites when the form is submitted
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    let websites = [];
+    let inputs = websiteList.getElementsByTagName('input');
+    for (let i = 0; i < inputs.length; i++) {
+      let website = inputs[i].value.trim();
+      if (website) {
+        websites.push(website);
+      }
+    }
+    chrome.storage.sync.set({ websites: websites });
+    alert('Websites saved!');
+  });
+
+  // Add a new input field when the 'Add Website' button is clicked
+  addWebsiteButton.addEventListener('click', function() {
+    addWebsiteInput();
+  });
+
+  // Localize static text
+  document.querySelectorAll('[data-localizable]').forEach(element => {
+    element.textContent = chrome.i18n.getMessage(element.dataset.localizable);
+  });
+});
+
+function addWebsiteInput(value = '') {
+  let inputGroup = document.createElement('div');
+  inputGroup.className = 'input-group mb-3';
+  inputGroup.innerHTML = `
+    <input type="text" class="form-control" placeholder="Website URL" value="${value}">
+    <div class="input-group-append">
+      <button class="btn btn-outline-danger removeWebsite" type="button">Remove</button>
+    </div>
+  `;
+  let removeButton = inputGroup.querySelector('.removeWebsite');
+  removeButton.addEventListener('click', function() {
+    inputGroup.remove();
+  });
+  websiteList.appendChild(inputGroup);
+}

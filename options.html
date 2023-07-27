@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <title>Options</title>
+  <style>
+      .toggle.ios, .toggle-on.ios, .toggle-off.ios {
+          border-radius: 20px;
+      }
+      .toggle.ios .toggle-handle {
+          border-radius: 20px;
+      }
+      .btn-lg{
+          padding: 10px 20px;
+          font-size: 18px;
+          line-height: 1.3333333;
+          border-radius: 6px;
+      }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <h1 class="mb-4">Edit Websites</h1>
+
+    <!-- Instruction Section -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">How to use this extension?</h5>
+        <p class="card-text">
+          <strong>Single click</strong> on the extension icon to open all websites listed below in new tabs.<br>
+          <strong>Double click</strong> on the extension icon to close all tabs that are not included in the website list.
+        </p>
+      </div>
+    </div>
+
+    <div class="form-group">
+        <label class="mb-2">Reverse Behavior: </label>
+        <input type="checkbox" id="reverseSwitch" data-toggle="toggle" data-style="ios">
+        <small id="reverseExplanation" class="form-text text-muted mt-2"></small>
+    </div>
+
+
+    <form id="optionsForm">
+      <div id="websiteList" class="mb-4"></div>
+      <div class="row">
+        <div class="col">
+          <button id="addWebsite" type="button" class="btn btn-primary">Add Website</button>
+        </div>
+        <div class="col text-right">
+          <button type="submit" class="btn btn-success">Save</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html>
