@@ -1,0 +1,63 @@
+{
+  "appName": {
+    "message": "포커스: 웹사이트 일괄 열기 및 닫기",
+    "description": "애플리케이션의 이름."
+  },
+  "appDescription": {
+    "message": "이 확장 프로그램은 정의된 웹사이트를 한 번 클릭으로 열고, 목록에 없는 도메인을 더블 클릭으로 닫습니다.",
+    "description": "애플리케이션의 설명."
+  },
+  "editWebsites": {
+    "message": "웹사이트 수정",
+    "description": "웹사이트 편집 섹션의 제목."
+  },
+  "howToUse": {
+    "message": "이 확장 프로그램 사용 방법",
+    "description": "지시 사항 섹션의 제목."
+  },
+  "instruction1": {
+    "message": "확장 프로그램 아이콘을 한 번 클릭하여 아래에 나열된 모든 웹사이트를 새 탭에서 엽니다.",
+    "description": "지시 사항의 첫 번째 부분."
+  },
+  "instruction2": {
+    "message": "확장 프로그램 아이콘을 더블 클릭하여 웹사이트 목록에 포함되지 않은 모든 탭을 닫습니다.",
+    "description": "지시 사항의 두 번째 부분."
+  },
+  "reverseBehavior": {
+    "message": "반대 동작:",
+    "description": "반대 동작 스위치의 레이블."
+  },
+  "reverseOff": {
+    "message": "반대로 설정되지 않은 경우 더블 클릭하면 위 목록에 없는 모든 탭이 닫힙니다.",
+    "description": "반대 동작이 꺼져있을 때의 설명 텍스트."
+  },
+  "reverseOn": {
+    "message": "반대로 설정된 경우 더블 클릭하면 위 목록에 있는 도메인 및 하위 도메인의 모든 탭이 닫힙니다.",
+    "description": "반대 동작이 켜져있을 때의 설명 텍스트."
+  },
+  "addWebsite": {
+    "message": "웹사이트 추가",
+    "description": "웹사이트 추가 버튼의 텍스트."
+  },
+  "save": {
+    "message": "저장",
+    "description": "저장 버튼의 텍스트."
+  },
+  "websitesSaved": {
+    "message": "웹사이트가 저장되었습니다!",
+    "description": "웹사이트가 저장되었을 때의 알림 텍스트."
+  },
+  "buyMeACoffee": {
+    "message": "커피 한 잔 사주세요",
+    "description": "Buy Me A Coffee 페이지로 이동하는 푸터 링크 레이블."
+  },
+  "twitter": {
+    "message": "트위터",
+    "description": "Twitter 페이지로 이동하는 푸터 링크 레이블."
+  },
+  "github": {
+    "message": "깃허브",
+    "description": "GitHub 페이지로 이동하는 푸터 링크 레이블."
+  }
+}
+

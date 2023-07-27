@@ -33,9 +33,11 @@ chrome.action.onClicked.addListener((tab) => {
 
 // Create a context menu item
 chrome.runtime.onInstalled.addListener(function() {
+  const editWebsitesTitle = chrome.i18n.getMessage("editWebsites");
+
   chrome.contextMenus.create({
     id: 'options',
-    title: 'Edit Websites',
+    title: editWebsitesTitle,
     contexts: ['action']
   });
 });

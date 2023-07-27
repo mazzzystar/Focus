@@ -1,0 +1,62 @@
+{
+  "appName": {
+    "message": "焦點：批次開啟和關閉網站",
+    "description": "應用程式的名稱。"
+  },
+  "appDescription": {
+    "message": "此擴充功能可單擊一次開啟預定義的網站，並以雙擊方式關閉未列入清單的網域。",
+    "description": "應用程式的描述。"
+  },
+  "editWebsites": {
+    "message": "編輯網站",
+    "description": "網站編輯區段的標題。"
+  },
+  "howToUse": {
+    "message": "如何使用此擴充功能？",
+    "description": "指示區段的標題。"
+  },
+  "instruction1": {
+    "message": "點擊擴充功能圖示一次，即可在新分頁中開啟下列所有網站。",
+    "description": "指示的第一部分。"
+  },
+  "instruction2": {
+    "message": "雙擊擴充功能圖示，即可關閉不在網站清單中的所有分頁。",
+    "description": "指示的第二部分。"
+  },
+  "reverseBehavior": {
+    "message": "反向行為：",
+    "description": "反向行為開關的標籤。"
+  },
+  "reverseOff": {
+    "message": "未反轉時，雙擊將關閉不在上述清單中的所有分頁。",
+    "description": "反向行為關閉時的說明文字。"
+  },
+  "reverseOn": {
+    "message": "啟用反向行為時，雙擊將關閉上述清單中列出的所有網域和子網域的分頁。",
+    "description": "反向行為開啟時的說明文字。"
+  },
+  "addWebsite": {
+    "message": "新增網站",
+    "description": "「新增網站」按鈕上的文字。"
+  },
+  "save": {
+    "message": "儲存",
+    "description": "「儲存」按鈕上的文字。"
+  },
+  "websitesSaved": {
+    "message": "已儲存網站！",
+    "description": "網站儲存時的警示文字。"
+  },
+  "buyMeACoffee": {
+    "message": "請我喝咖啡",
+    "description": "頁尾連結至 Buy Me A Coffee 頁面的標籤。"
+  },
+  "twitter": {
+    "message": "Twitter",
+    "description": "頁尾連結至 Twitter 頁面的標籤。"
+  },
+  "github": {
+    "message": "GitHub",
+    "description": "頁尾連結至 GitHub 頁面的標籤。"
+  }
+}

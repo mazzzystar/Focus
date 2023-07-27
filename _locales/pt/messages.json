@@ -1,0 +1,62 @@
+{
+  "appName": {
+    "message": "Focus: Abrir e Fechar Lotes de Sites",
+    "description": "O nome do aplicativo."
+  },
+  "appDescription": {
+    "message": "Esta extensão abre sites pré-definidos com um clique e fecha domínios não listados com um clique duplo.",
+    "description": "A descrição do aplicativo."
+  },
+  "editWebsites": {
+    "message": "Editar Sites",
+    "description": "O título para a seção de edição de sites."
+  },
+  "howToUse": {
+    "message": "Como usar esta extensão?",
+    "description": "O título para a seção de instruções."
+  },
+  "instruction1": {
+    "message": "Clique uma vez no ícone da extensão para abrir todos os sites listados abaixo em novas guias.",
+    "description": "A primeira parte das instruções."
+  },
+  "instruction2": {
+    "message": "Clique duas vezes no ícone da extensão para fechar todas as guias que não estão incluídas na lista de sites.",
+    "description": "A segunda parte das instruções."
+  },
+  "reverseBehavior": {
+    "message": "Comportamento Reverso:",
+    "description": "O rótulo para a chave de comportamento reverso."
+  },
+  "reverseOff": {
+    "message": "Quando não invertido, o clique duplo fechará todas as guias que não estão na lista acima.",
+    "description": "O texto explicativo para quando o comportamento reverso está desligado."
+  },
+  "reverseOn": {
+    "message": "Quando invertido, o clique duplo fechará todas as guias para os domínios e subdomínios listados acima.",
+    "description": "O texto explicativo para quando o comportamento reverso está ligado."
+  },
+  "addWebsite": {
+    "message": "Adicionar Site",
+    "description": "O texto no botão Adicionar Site."
+  },
+  "save": {
+    "message": "Salvar",
+    "description": "O texto no botão Salvar."
+  },
+  "websitesSaved": {
+    "message": "Sites salvos!",
+    "description": "O texto de alerta para quando os sites são salvos."
+  },
+  "buyMeACoffee": {
+    "message": "Me pague um café",
+    "description": "Rótulo do link de rodapé para a página Buy Me A Coffee."
+  },
+  "twitter": {
+    "message": "Twitter",
+    "description": "Rótulo do link de rodapé para a página do Twitter."
+  },
+  "github": {
+    "message": "GitHub",
+    "description": "Rótulo do link de rodapé para a página do GitHub."
+  }
+}

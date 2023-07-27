@@ -1,0 +1,35 @@
+{
+  "extensionName": {
+    "message": "Open and Close Tabs"
+  },
+  "extensionDescription": {
+    "message": "This extension opens predefined websites on click, and closes non-listed domains on double-click."
+  },
+  "addWebsite": {
+    "message": "Add Website"
+  },
+  "removeWebsite": {
+    "message": "Remove"
+  },
+  "saveButton": {
+    "message": "Save"
+  },
+  "reverseSwitch": {
+    "message": "Reverse"
+  },
+  "reverseExplanationOn": {
+    "message": "When reversed, double-clicking will close all tabs for domains and subdomains listed above."
+  },
+  "reverseExplanationOff": {
+    "message": "When not reversed, double-clicking will close all tabs that are not in the list above."
+  },
+  "tutorialTitle": {
+    "message": "Tutorial"
+  },
+  "tutorialText": {
+    "message": "One click to open all listed websites. Double click to close all tabs that are not listed."
+  },
+  "websitesSaved": {
+    "message": "Websites saved!"
+  }
+}

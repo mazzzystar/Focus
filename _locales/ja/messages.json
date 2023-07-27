@@ -1,0 +1,62 @@
+{
+  "appName": {
+    "message": "フォーカス：ウェブサイトを一括で開く・閉じる",
+    "description": "アプリケーションの名前。"
+  },
+  "appDescription": {
+    "message": "この拡張機能は、定義済みのウェブサイトを一回クリックで開き、リストにないドメインをダブルクリックで閉じます。",
+    "description": "アプリケーションの説明。"
+  },
+  "editWebsites": {
+    "message": "ウェブサイトを編集する",
+    "description": "ウェブサイト編集セクションのタイトル。"
+  },
+  "howToUse": {
+    "message": "この拡張機能の使用方法は？",
+    "description": "インストラクションセクションのタイトル。"
+  },
+  "instruction1": {
+    "message": "拡張機能のアイコンを一度クリックして、以下にリストされているすべてのウェブサイトを新しいタブで開きます。",
+    "description": "インストラクションの第1部。"
+  },
+  "instruction2": {
+    "message": "拡張機能のアイコンをダブルクリックして、ウェブサイトリストに含まれていないすべてのタブを閉じます。",
+    "description": "インストラクションの第2部。"
+  },
+  "reverseBehavior": {
+    "message": "逆の動作：",
+    "description": "逆動作スイッチのラベル。"
+  },
+  "reverseOff": {
+    "message": "逆さまでない場合、ダブルクリックで上記リストにないすべてのタブを閉じます。",
+    "description": "逆動作がオフの場合の説明テキスト。"
+  },
+  "reverseOn": {
+    "message": "逆さまの場合、ダブルクリックで上記リストのドメインとサブドメインのすべてのタブを閉じます。",
+    "description": "逆動作がオンの場合の説明テキスト。"
+  },
+  "addWebsite": {
+    "message": "ウェブサイトを追加する",
+    "description": "ウェブサイトを追加するボタンのテキスト。"
+  },
+  "save": {
+    "message": "保存",
+    "description": "保存ボタンのテキスト。"
+  },
+  "websitesSaved": {
+    "message": "ウェブサイトが保存されました！",
+    "description": "ウェブサイトが保存されたときのアラートテキスト。"
+  },
+  "buyMeACoffee": {
+    "message": "コーヒーを買ってください",
+    "description": "Buy Me A Coffeeページへのフッターリンクラベル。"
+  },
+  "twitter": {
+    "message": "ツイッター",
+    "description": "Twitterページへのフッターリンクラベル。"
+  },
+  "github": {
+    "message": "ギットハブ",
+    "description": "GitHubページへのフッターリンクラベル。"
+  }
+}

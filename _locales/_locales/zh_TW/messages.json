@@ -1,0 +1,35 @@
+{
+  "extensionName": {
+    "message": "打开和关闭标签页"
+  },
+  "extensionDescription": {
+    "message": "此扩展程序点击后会打开预定义的网站，并在双击后关闭未列出的域。"
+  },
+  "addWebsite": {
+    "message": "添加网站"
+  },
+  "removeWebsite": {
+    "message": "移除"
+  },
+  "saveButton": {
+    "message": "保存"
+  },
+  "reverseSwitch": {
+    "message": "反转"
+  },
+  "reverseExplanationOn": {
+    "message": "反向时，双击将关闭上面列出的所有域和子域的所有选项卡。"
+  },
+  "reverseExplanationOff": {
+    "message": "非反向时，双击将关闭未列在上面的所有选项卡。"
+  },
+  "tutorialTitle": {
+    "message": "教程"
+  },
+  "tutorialText": {
+    "message": "单击一次打开所有列出的网站。 双击关闭未列出的所有选项卡。"
+  },
+  "websitesSaved": {
+    "message": "网站已保存！"
+  }
+}

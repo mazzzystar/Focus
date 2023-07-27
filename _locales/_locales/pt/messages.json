@@ -1,0 +1,35 @@
+{
+  "extensionName": {
+    "message": "Abrir e fechar abas"
+  },
+  "extensionDescription": {
+    "message": "Esta extensão abre websites pré-definidos com um clique, e fecha domínios não listados com um duplo clique."
+  },
+  "addWebsite": {
+    "message": "Adicionar site"
+  },
+  "removeWebsite": {
+    "message": "Remover"
+  },
+  "saveButton": {
+    "message": "Salvar"
+  },
+  "reverseSwitch": {
+    "message": "Reverter"
+  },
+  "reverseExplanationOn": {
+    "message": "Quando Reverter está ativado, um duplo clique fecha todas as abas de todos os domínios e subdomínios listados acima."
+  },
+  "reverseExplanationOff": {
+    "message": "Quando Reverter está desativado, um duplo clique fecha todas as abas que não estão listadas acima."
+  },
+  "tutorialTitle": {
+    "message": "Tutorial"
+  },
+  "tutorialText": {
+    "message": "Um clique abre todos os sites listados. Um duplo clique fecha todas as abas não listadas."
+  },
+  "websitesSaved": {
+    "message": "Sites salvos!"
+  }
+}

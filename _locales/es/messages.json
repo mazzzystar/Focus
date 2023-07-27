@@ -1,0 +1,62 @@
+{
+  "appName": {
+    "message": "Focus: Abrir y cerrar sitios web en lote",
+    "description": "El nombre de la aplicación."
+  },
+  "appDescription": {
+    "message": "Esta extensión abre sitios web predefinidos con un clic y cierra dominios no listados con doble clic.",
+    "description": "La descripción de la aplicación."
+  },
+  "editWebsites": {
+    "message": "Editar sitios web",
+    "description": "El título para la sección de edición de sitios web."
+  },
+  "howToUse": {
+    "message": "¿Cómo usar esta extensión?",
+    "description": "El título para la sección de instrucciones."
+  },
+  "instruction1": {
+    "message": "Haz clic una vez en el icono de la extensión para abrir todos los sitios web listados a continuación en nuevas pestañas.",
+    "description": "La primera parte de la instrucción."
+  },
+  "instruction2": {
+    "message": "Haz doble clic en el icono de la extensión para cerrar todas las pestañas que no estén incluidas en la lista de sitios web.",
+    "description": "La segunda parte de la instrucción."
+  },
+  "reverseBehavior": {
+    "message": "Comportamiento inverso:",
+    "description": "La etiqueta para el interruptor de comportamiento inverso."
+  },
+  "reverseOff": {
+    "message": "Cuando no está invertido, al hacer doble clic se cerrarán todas las pestañas que no estén en la lista anterior.",
+    "description": "El texto de explicación para cuando el comportamiento inverso está apagado."
+  },
+  "reverseOn": {
+    "message": "Cuando está invertido, al hacer doble clic se cerrarán todas las pestañas de los dominios y subdominios listados anteriormente.",
+    "description": "El texto de explicación para cuando el comportamiento inverso está encendido."
+  },
+  "addWebsite": {
+    "message": "Agregar sitio web",
+    "description": "El texto en el botón Agregar sitio web."
+  },
+  "save": {
+    "message": "Guardar",
+    "description": "El texto en el botón Guardar."
+  },
+  "websitesSaved": {
+    "message": "¡Sitios web guardados!",
+    "description": "El texto de alerta para cuando se guardan los sitios web."
+  },
+  "buyMeACoffee": {
+    "message": "Cómprame un café",
+    "description": "Etiqueta de enlace de pie de página a la página de Buy Me A Coffee."
+  },
+  "twitter": {
+    "message": "Twitter",
+    "description": "Etiqueta de enlace de pie de página a la página de Twitter."
+  },
+  "github": {
+    "message": "GitHub",
+    "description": "Etiqueta de enlace de pie de página a la página de GitHub."
+  }
+}

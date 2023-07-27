@@ -1,0 +1,35 @@
+{
+  "extensionName": {
+    "message": "タブを開く・閉じる"
+  },
+  "extensionDescription": {
+    "message": "この拡張機能は、クリックで事前に定義されたウェブサイトを開き、ダブルクリックでリストにないドメインを閉じます。"
+  },
+  "addWebsite": {
+    "message": "ウェブサイトを追加"
+  },
+  "removeWebsite": {
+    "message": "削除"
+  },
+  "saveButton": {
+    "message": "保存"
+  },
+  "reverseSwitch": {
+    "message": "反転"
+  },
+  "reverseExplanationOn": {
+    "message": "逆転している場合、ダブルクリックすると、上記のリストにあるすべてのドメインおよびサブドメインのすべてのタブが閉じます。"
+  },
+  "reverseExplanationOff": {
+    "message": "逆転していない場合、ダブルクリックすると、上記のリストにないすべてのタブが閉じます。"
+  },
+  "tutorialTitle": {
+    "message": "チュートリアル"
+  },
+  "tutorialText": {
+    "message": "一度クリックすると、リストにあるすべてのウェブサイトが開きます。 ダブルクリックすると、リストにないすべてのタブが閉じます。"
+  },
+  "websitesSaved": {
+    "message": "ウェブサイトが保存されました！"
+  }
+}

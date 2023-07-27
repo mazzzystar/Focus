@@ -4,56 +4,82 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-  <title>Options</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title data-localizable="optionsTitle"></title>
   <style>
-      .toggle.ios, .toggle-on.ios, .toggle-off.ios {
-          border-radius: 20px;
-      }
-      .toggle.ios .toggle-handle {
-          border-radius: 20px;
-      }
-      .btn-lg{
-          padding: 10px 20px;
-          font-size: 18px;
-          line-height: 1.3333333;
-          border-radius: 6px;
-      }
+    .footer {
+      padding: 10px 0;
+    }
+
+    .footer .fas,
+    .footer .fab {
+      color: #333;
+      font-size: 1.5rem;  /* Adjust icon size */
+    }
+
+    .footer p {
+      margin-top: 5px;    /* Adjust margin */
+      font-size: 0.8rem;  /* Adjust font size */
+    }
   </style>
 </head>
 <body>
   <div class="container py-4">
-    <h1 class="mb-4">Edit Websites</h1>
+    <h1 class="mb-4" data-localizable="editWebsites"></h1>
 
     <!-- Instruction Section -->
     <div class="card mb-4">
       <div class="card-body">
-        <h5 class="card-title">How to use this extension?</h5>
+        <h5 class="card-title" data-localizable="howToUse"></h5>
         <p class="card-text">
-          <strong>Single click</strong> on the extension icon to open all websites listed below in new tabs.<br>
-          <strong>Double click</strong> on the extension icon to close all tabs that are not included in the website list.
+          <span data-localizable="instruction1"></span><br>
+          <span data-localizable="instruction2"></span>
         </p>
       </div>
     </div>
 
     <div class="form-group">
-        <label class="mb-2">Reverse Behavior: </label>
+        <label class="mb-2" data-localizable="reverseBehavior"></label>
         <input type="checkbox" id="reverseSwitch" data-toggle="toggle" data-style="ios">
         <small id="reverseExplanation" class="form-text text-muted mt-2"></small>
     </div>
-
 
     <form id="optionsForm">
       <div id="websiteList" class="mb-4"></div>
       <div class="row">
         <div class="col">
-          <button id="addWebsite" type="button" class="btn btn-primary">Add Website</button>
+          <button id="addWebsite" type="button" class="btn btn-primary" data-localizable="addWebsite"></button>
         </div>
         <div class="col text-right">
-          <button type="submit" class="btn btn-success">Save</button>
+          <button type="submit" class="btn btn-success" data-localizable="save"></button>
         </div>
       </div>
     </form>
   </div>
+
+  <div class="footer bg-light">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-2">
+          <a href="https://www.buymeacoffee.com/mazzystar" target="_blank"><i class="fas fa-coffee fa-2x"></i></a>
+          <p class="small" data-localizable="buyMeACoffee"></p>
+        </div>
+        <div class="col-md-2">
+          <a href="https://twitter.com/immazzystar" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+          <p class="small" data-localizable="twitter"></p>
+        </div>
+        <div class="col-md-2">
+          <a href="https://github.com/mazzzystar" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+          <p class="small" data-localizable="github"></p>
+        </div>
+        <div class="col-md-1">
+          <!-- This is an empty column for spacing -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <script src="options.js"></script>
 </body>
 </html>

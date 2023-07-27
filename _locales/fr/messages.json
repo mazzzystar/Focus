@@ -1,0 +1,62 @@
+{
+  "appName": {
+    "message": "Focus: Ouverture et fermeture en lot de sites Web",
+    "description": "Le nom de l'application."
+  },
+  "appDescription": {
+    "message": "Cette extension ouvre des sites Web prédéfinis en un clic, et ferme les domaines non listés en double-clic.",
+    "description": "La description de l'application."
+  },
+  "editWebsites": {
+    "message": "Modifier les sites Web",
+    "description": "Le titre de la section d'édition des sites Web."
+  },
+  "howToUse": {
+    "message": "Comment utiliser cette extension ?",
+    "description": "Le titre pour la section d'instructions."
+  },
+  "instruction1": {
+    "message": "Cliquez une fois sur l'icône de l'extension pour ouvrir tous les sites Web listés ci-dessous dans de nouveaux onglets.",
+    "description": "La première partie de l'instruction."
+  },
+  "instruction2": {
+    "message": "Double-cliquez sur l'icône de l'extension pour fermer tous les onglets qui ne sont pas inclus dans la liste des sites Web.",
+    "description": "La deuxième partie de l'instruction."
+  },
+  "reverseBehavior": {
+    "message": "Comportement inversé :",
+    "description": "L'étiquette pour le commutateur de comportement inverse."
+  },
+  "reverseOff": {
+    "message": "Quand il n'est pas inversé, un double-clic fermera tous les onglets qui ne sont pas dans la liste ci-dessus.",
+    "description": "Le texte d'explication pour quand le comportement inverse est désactivé."
+  },
+  "reverseOn": {
+    "message": "Quand il est inversé, un double-clic fermera tous les onglets pour les domaines et sous-domaines listés ci-dessus.",
+    "description": "Le texte d'explication pour quand le comportement inverse est activé."
+  },
+  "addWebsite": {
+    "message": "Ajouter un site Web",
+    "description": "Le texte sur le bouton Ajouter un site Web."
+  },
+  "save": {
+    "message": "Enregistrer",
+    "description": "Le texte sur le bouton Enregistrer."
+  },
+  "websitesSaved": {
+    "message": "Sites Web enregistrés !",
+    "description": "Le texte d'alerte pour quand les sites Web sont enregistrés."
+  },
+  "buyMeACoffee": {
+    "message": "Offrez-moi un café",
+    "description": "Étiquette de lien de pied de page vers la page Buy Me A Coffee."
+  },
+  "twitter": {
+    "message": "Twitter",
+    "description": "Étiquette de lien de pied de page vers la page Twitter."
+  },
+  "github": {
+    "message": "GitHub",
+    "description": "Étiquette de lien de pied de page vers la page GitHub."
+  }
+}

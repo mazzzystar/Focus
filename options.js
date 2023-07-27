@@ -10,8 +10,8 @@ window.addEventListener('DOMContentLoaded', function() {
     let websites = data.websites || [];
     reverseSwitch.checked = data.reverse || false;
     reverseExplanation.textContent = reverseSwitch.checked ?
-      "When reversed, double-clicking will close all tabs for domains and subdomains listed above." :
-      "When not reversed, double-clicking will close all tabs that are not in the list above.";
+      chrome.i18n.getMessage("reverseOn") :
+      chrome.i18n.getMessage("reverseOff");
     for (let i = 0; i < websites.length; i++) {
       addWebsiteInput(websites[i]);
     }
@@ -20,8 +20,8 @@ window.addEventListener('DOMContentLoaded', function() {
   // Update the reverse explanation and save the new state when the reverse switch state changes
   reverseSwitch.addEventListener('change', function() {
     reverseExplanation.textContent = reverseSwitch.checked ?
-      "When reversed, double-clicking will close all tabs for domains and subdomains listed above." :
-      "When not reversed, double-clicking will close all tabs that are not in the list above.";
+      chrome.i18n.getMessage("reverseOn") :
+      chrome.i18n.getMessage("reverseOff");
     chrome.storage.sync.set({ reverse: reverseSwitch.checked });
   });
 
@@ -37,7 +37,7 @@ window.addEventListener('DOMContentLoaded', function() {
       }
     }
     chrome.storage.sync.set({ websites: websites });
-    alert('Websites saved!');
+    alert(chrome.i18n.getMessage("websitesSaved"));
   });
 
   // Add a new input field when the 'Add Website' button is clicked

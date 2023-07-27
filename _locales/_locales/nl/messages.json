@@ -1,0 +1,35 @@
+{
+  "extensionName": {
+    "message": "Open en sluit tabs"
+  },
+  "extensionDescription": {
+    "message": "Deze extensie opent vooraf gedefinieerde websites met één klik, en sluit niet-gelijste domeinen met een dubbele klik."
+  },
+  "addWebsite": {
+    "message": "Website toevoegen"
+  },
+  "removeWebsite": {
+    "message": "Verwijderen"
+  },
+  "saveButton": {
+    "message": "Opslaan"
+  },
+  "reverseSwitch": {
+    "message": "Omgekeerd"
+  },
+  "reverseExplanationOn": {
+    "message": "Wanneer Omgekeerd is ingeschakeld, sluit een dubbele klik alle tabs van alle bovengenoemde domeinen en subdomeinen."
+  },
+  "reverseExplanationOff": {
+    "message": "Wanneer Omgekeerd is uitgeschakeld, sluit een dubbele klik alle tabs die niet bovenstaand zijn opgelijst."
+  },
+  "tutorialTitle": {
+    "message": "Tutorial"
+  },
+  "tutorialText": {
+    "message": "Eén klik opent alle opgelijste websites. Een dubbele klik sluit alle niet-opgelijste tabs."
+  },
+  "websitesSaved": {
+    "message": "Websites opgeslagen!"
+  }
+}

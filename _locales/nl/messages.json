@@ -1,0 +1,62 @@
+{
+  "appName": {
+    "message": "Focus: Websites in batch openen en sluiten",
+    "description": "De naam van de applicatie."
+  },
+  "appDescription": {
+    "message": "Deze extensie opent voorgedefinieerde websites met één klik en sluit niet-geliste domeinen met een dubbelklik.",
+    "description": "De beschrijving van de applicatie."
+  },
+  "editWebsites": {
+    "message": "Websites bewerken",
+    "description": "De kop voor de sectie met websitebewerking."
+  },
+  "howToUse": {
+    "message": "Hoe deze extensie te gebruiken?",
+    "description": "De kop voor de instructiesectie."
+  },
+  "instruction1": {
+    "message": "Klik één keer op het extensie-icoon om alle hieronder vermelde websites in nieuwe tabbladen te openen.",
+    "description": "Het eerste deel van de instructie."
+  },
+  "instruction2": {
+    "message": "Dubbelklik op het extensie-icoon om alle tabbladen te sluiten die niet in de lijst met websites zijn opgenomen.",
+    "description": "Het tweede deel van de instructie."
+  },
+  "reverseBehavior": {
+    "message": "Omkerend gedrag:",
+    "description": "Het label voor de omgekeerd-gedrag-schakelaar."
+  },
+  "reverseOff": {
+    "message": "Als het omkerend gedrag is uitgeschakeld, worden alle tabbladen die niet in de bovenstaande lijst staan, gesloten bij een dubbelklik.",
+    "description": "De uitlegtekst wanneer het omgekeerd gedrag is uitgeschakeld."
+  },
+  "reverseOn": {
+    "message": "Als het omkerend gedrag is ingeschakeld, worden alle tabbladen voor de domeinen en subdomeinen die hierboven zijn vermeld, gesloten bij een dubbelklik.",
+    "description": "De uitlegtekst wanneer het omgekeerd gedrag is ingeschakeld."
+  },
+  "addWebsite": {
+    "message": "Website toevoegen",
+    "description": "De tekst op de knop 'Website toevoegen'."
+  },
+  "save": {
+    "message": "Opslaan",
+    "description": "De tekst op de knop 'Opslaan'."
+  },
+  "websitesSaved": {
+    "message": "Websites opgeslagen!",
+    "description": "De waarschuwingstekst wanneer de websites zijn opgeslagen."
+  },
+  "buyMeACoffee": {
+    "message": "Koop me een koffie",
+    "description": "Voettekst link label naar Buy Me A Coffee pagina."
+  },
+  "twitter": {
+    "message": "Twitter",
+    "description": "Voettekst link label naar Twitter pagina."
+  },
+  "github": {
+    "message": "GitHub",
+    "description": "Voettekst link label naar GitHub pagina."
+  }
+}

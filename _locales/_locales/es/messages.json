@@ -1,0 +1,35 @@
+{
+  "extensionName": {
+    "message": "Abrir y cerrar pestañas"
+  },
+  "extensionDescription": {
+    "message": "Esta extensión abre sitios web predefinidos con un clic, y cierra dominios no listados con un doble clic."
+  },
+  "addWebsite": {
+    "message": "Añadir sitio web"
+  },
+  "removeWebsite": {
+    "message": "Eliminar"
+  },
+  "saveButton": {
+    "message": "Guardar"
+  },
+  "reverseSwitch": {
+    "message": "Inverso"
+  },
+  "reverseExplanationOn": {
+    "message": "Cuando Inverso está activado, un doble clic cierra todas las pestañas de todos los dominios y subdominios listados arriba."
+  },
+  "reverseExplanationOff": {
+    "message": "Cuando Inverso está desactivado, un doble clic cierra todas las pestañas que no están listadas arriba."
+  },
+  "tutorialTitle": {
+    "message": "Tutorial"
+  },
+  "tutorialText": {
+    "message": "Un clic abre todos los sitios web listados. Un doble clic cierra todas las pestañas no listadas."
+  },
+  "websitesSaved": {
+    "message": "¡Sitios web guardados!"
+  }
+}
