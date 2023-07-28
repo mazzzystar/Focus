@@ -28,16 +28,20 @@
     "description": "Het label voor de omgekeerd-gedrag-schakelaar."
   },
   "reverseOff": {
-    "message": "Als het omkerend gedrag is uitgeschakeld, worden alle tabbladen die niet in de bovenstaande lijst staan, gesloten bij een dubbelklik.",
-    "description": "De uitlegtekst wanneer het omgekeerd gedrag is uitgeschakeld."
+    "message": "Als het niet is omgekeerd, sluit dubbelklikken alle tabbladen die niet in de onderstaande lijst staan.",
+    "description": "De uitlegtekst voor wanneer het omgekeerde gedrag uit staat."
   },
   "reverseOn": {
-    "message": "Als het omkerend gedrag is ingeschakeld, worden alle tabbladen voor de domeinen en subdomeinen die hierboven zijn vermeld, gesloten bij een dubbelklik.",
-    "description": "De uitlegtekst wanneer het omgekeerd gedrag is ingeschakeld."
+    "message": "Wanneer het is omgekeerd, sluit dubbelklikken alle tabbladen voor domeinen en subdomeinen die hieronder worden vermeld.",
+    "description": "De uitlegtekst voor wanneer het omgekeerde gedrag aan staat."
   },
   "addWebsite": {
     "message": "Website toevoegen",
     "description": "De tekst op de knop 'Website toevoegen'."
+  },
+  "removeWebsite": {
+  "message": "Verwijderen",
+  "description": "Een website uit de lijst verwijderen."
   },
   "save": {
     "message": "Opslaan",

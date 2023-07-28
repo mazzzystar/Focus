@@ -11,6 +11,10 @@
     "message": "웹사이트 수정",
     "description": "웹사이트 편집 섹션의 제목."
   },
+  "removeWebsite": {
+  "message": "제거",
+  "description": "목록에서 웹사이트 제거."
+  },
   "howToUse": {
     "message": "이 확장 프로그램 사용 방법",
     "description": "지시 사항 섹션의 제목."
@@ -23,13 +27,13 @@
     "message": "확장 프로그램 아이콘을 더블 클릭하여 웹사이트 목록에 포함되지 않은 모든 탭을 닫습니다.",
     "description": "지시 사항의 두 번째 부분."
   },
-  "reverseBehavior": {
-    "message": "반대 동작:",
-    "description": "반대 동작 스위치의 레이블."
-  },
   "reverseOff": {
-    "message": "반대로 설정되지 않은 경우 더블 클릭하면 위 목록에 없는 모든 탭이 닫힙니다.",
-    "description": "반대 동작이 꺼져있을 때의 설명 텍스트."
+    "message": "반전되지 않은 경우, 더블 클릭하면 아래 목록에 없는 모든 탭이 닫힙니다.",
+    "description": "반전 동작이 꺼져 있는 경우 설명 텍스트입니다."
+  },
+  "reverseOn": {
+    "message": "반전되면, 더블 클릭하면 아래에 나열된 도메인 및 서브도메인의 모든 탭이 닫힙니다.",
+    "description": "반전 동작이 켜져 있는 경우 설명 텍스트입니다."
   },
   "reverseOn": {
     "message": "반대로 설정된 경우 더블 클릭하면 위 목록에 있는 도메인 및 하위 도메인의 모든 탭이 닫힙니다.",

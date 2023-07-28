@@ -28,16 +28,20 @@
     "description": "反向行為開關的標籤。"
   },
   "reverseOff": {
-    "message": "未反轉時，雙擊將關閉不在上述清單中的所有分頁。",
-    "description": "反向行為關閉時的說明文字。"
+    "message": "當不反轉時，雙擊將關閉所有不在以下列表中的標籤頁。",
+    "description": "反轉行為關閉時的解釋文本。"
   },
   "reverseOn": {
-    "message": "啟用反向行為時，雙擊將關閉上述清單中列出的所有網域和子網域的分頁。",
-    "description": "反向行為開啟時的說明文字。"
+    "message": "當反轉時，雙擊將關閉所有在以下列表中的域和子域的標籤頁。",
+    "description": "反轉行為開啟時的解釋文本。"
   },
   "addWebsite": {
     "message": "新增網站",
     "description": "「新增網站」按鈕上的文字。"
+  },
+  "removeWebsite": {
+  "message": "移除",
+  "description": "從列表中移除網站。"
   },
   "save": {
     "message": "儲存",

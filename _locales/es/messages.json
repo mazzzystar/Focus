@@ -28,16 +28,20 @@
     "description": "La etiqueta para el interruptor de comportamiento inverso."
   },
   "reverseOff": {
-    "message": "Cuando no está invertido, al hacer doble clic se cerrarán todas las pestañas que no estén en la lista anterior.",
-    "description": "El texto de explicación para cuando el comportamiento inverso está apagado."
+    "message": "Cuando no está invertido, hacer doble clic cerrará todas las pestañas que no estén en la lista de abajo.",
+    "description": "El texto de explicación para cuando la comportamiento inverso está apagado."
   },
   "reverseOn": {
-    "message": "Cuando está invertido, al hacer doble clic se cerrarán todas las pestañas de los dominios y subdominios listados anteriormente.",
-    "description": "El texto de explicación para cuando el comportamiento inverso está encendido."
+    "message": "Cuando está invertido, hacer doble clic cerrará todas las pestañas de los dominios y subdominios que se enumeran a continuación.",
+    "description": "El texto de explicación para cuando la comportamiento inverso está encendido."
   },
   "addWebsite": {
     "message": "Agregar sitio web",
     "description": "El texto en el botón Agregar sitio web."
+  },
+  "removeWebsite": {
+  "message": "Eliminar",
+  "description": "Eliminar un sitio web de la lista."
   },
   "save": {
     "message": "Guardar",

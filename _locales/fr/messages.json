@@ -28,16 +28,20 @@
     "description": "L'étiquette pour le commutateur de comportement inverse."
   },
   "reverseOff": {
-    "message": "Quand il n'est pas inversé, un double-clic fermera tous les onglets qui ne sont pas dans la liste ci-dessus.",
-    "description": "Le texte d'explication pour quand le comportement inverse est désactivé."
+    "message": "Lorsqu'il n'est pas inversé, le double-clic fermera tous les onglets qui ne figurent pas dans la liste ci-dessous.",
+    "description": "Le texte d'explication pour quand le comportement inversé est désactivé."
   },
   "reverseOn": {
-    "message": "Quand il est inversé, un double-clic fermera tous les onglets pour les domaines et sous-domaines listés ci-dessus.",
-    "description": "Le texte d'explication pour quand le comportement inverse est activé."
+    "message": "Lorsqu'il est inversé, le double-clic fermera tous les onglets pour les domaines et sous-domaines répertoriés ci-dessous.",
+    "description": "Le texte d'explication pour quand le comportement inversé est activé."
   },
   "addWebsite": {
     "message": "Ajouter un site Web",
     "description": "Le texte sur le bouton Ajouter un site Web."
+  },
+  "removeWebsite": {
+  "message": "Supprimer",
+  "description": "Supprimer un site web de la liste."
   },
   "save": {
     "message": "Enregistrer",

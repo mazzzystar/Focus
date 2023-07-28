@@ -5,10 +5,32 @@ window.addEventListener('DOMContentLoaded', function() {
   let reverseSwitch = document.getElementById('reverseSwitch');
   let reverseExplanation = document.getElementById('reverseExplanation');
 
+  // Function to add website input
+  function addWebsiteInput(value = '') {
+    let inputGroup = document.createElement('div');
+    inputGroup.className = 'input-group mb-3';
+    inputGroup.innerHTML = `
+      <input type="text" class="form-control" placeholder="Website URL" value="${value}">
+      <div class="input-group-append">
+        <button class="btn btn-outline-danger removeWebsite" type="button" data-localizable="removeWebsite">Remove</button>
+      </div>
+    `;
+    let removeButton = inputGroup.querySelector('.removeWebsite');
+    removeButton.addEventListener('click', function() {
+      inputGroup.remove();
+    });
+    websiteList.appendChild(inputGroup);
+
+    // Localize dynamic text for the newly added inputGroup
+    inputGroup.querySelectorAll('[data-localizable]').forEach(element => {
+      element.textContent = chrome.i18n.getMessage(element.dataset.localizable);
+    });
+  }
+
   // Load the websites and reverse switch state from storage and populate the form
   chrome.storage.sync.get(['websites', 'reverse'], function(data) {
     let websites = data.websites || [];
-    reverseSwitch.checked = data.reverse || false;
+    reverseSwitch.checked = data.reverse || true;
     reverseExplanation.textContent = reverseSwitch.checked ?
       chrome.i18n.getMessage("reverseOn") :
       chrome.i18n.getMessage("reverseOff");
@@ -50,19 +72,3 @@ window.addEventListener('DOMContentLoaded', function() {
     element.textContent = chrome.i18n.getMessage(element.dataset.localizable);
   });
 });
-
-function addWebsiteInput(value = '') {
-  let inputGroup = document.createElement('div');
-  inputGroup.className = 'input-group mb-3';
-  inputGroup.innerHTML = `
-    <input type="text" class="form-control" placeholder="Website URL" value="${value}">
-    <div class="input-group-append">
-      <button class="btn btn-outline-danger removeWebsite" type="button">Remove</button>
-    </div>
-  `;
-  let removeButton = inputGroup.querySelector('.removeWebsite');
-  removeButton.addEventListener('click', function() {
-    inputGroup.remove();
-  });
-  websiteList.appendChild(inputGroup);
-}

@@ -28,11 +28,11 @@
     "description": "The label for the reverse behavior switch."
   },
   "reverseOff": {
-    "message": "When not reversed, double-clicking will close all tabs that are not in the list above.",
+    "message": "When not reversed, double-clicking will close all tabs that are not in the list below.",
     "description": "The explanation text for when the reverse behavior is off."
   },
   "reverseOn": {
-    "message": "When reversed, double-clicking will close all tabs for domains and subdomains listed above.",
+    "message": "When reversed, double-clicking will close all tabs for domains and subdomains listed below.",
     "description": "The explanation text for when the reverse behavior is on."
   },
   "addWebsite": {
@@ -42,6 +42,10 @@
   "save": {
     "message": "Save",
     "description": "The text on the Save button."
+  },
+  "removeWebsite": {
+    "message": "Remove",
+    "description": "Remove a website from list."
   },
   "websitesSaved": {
     "message": "Websites saved!",

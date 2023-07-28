@@ -28,12 +28,12 @@
     "description": "O rótulo para a chave de comportamento reverso."
   },
   "reverseOff": {
-    "message": "Quando não invertido, o clique duplo fechará todas as guias que não estão na lista acima.",
-    "description": "O texto explicativo para quando o comportamento reverso está desligado."
+    "message": "Quando não revertido, um duplo clique fechará todas as abas que não estão na lista abaixo.",
+    "description": "O texto de explicação para quando o comportamento reverso está desligado."
   },
   "reverseOn": {
-    "message": "Quando invertido, o clique duplo fechará todas as guias para os domínios e subdomínios listados acima.",
-    "description": "O texto explicativo para quando o comportamento reverso está ligado."
+    "message": "Quando revertido, um duplo clique fechará todas as abas para domínios e subdomínios listados abaixo.",
+    "description": "O texto de explicação para quando o comportamento reverso está ligado."
   },
   "addWebsite": {
     "message": "Adicionar Site",
@@ -46,6 +46,10 @@
   "websitesSaved": {
     "message": "Sites salvos!",
     "description": "O texto de alerta para quando os sites são salvos."
+  },
+  "removeWebsite": {
+  "message": "Remover",
+  "description": "Remover um site da lista."
   },
   "buyMeACoffee": {
     "message": "Me pague um café",

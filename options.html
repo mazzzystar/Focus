@@ -7,25 +7,80 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <title data-localizable="optionsTitle"></title>
   <style>
+    body {
+      background-color: #ffffff;
+    }
+
+    .title-text {
+      color: #000;
+     }
+
     .footer {
       padding: 10px 0;
+      background-color: #3DE08A;
     }
 
     .footer .fas,
     .footer .fab {
-      color: #333;
+      color: #3DE08A;
       font-size: 1.5rem;  /* Adjust icon size */
     }
 
     .footer p {
       margin-top: 5px;    /* Adjust margin */
       font-size: 0.8rem;  /* Adjust font size */
+      color: #000;
+    }
+
+    .btn-primary {
+      background-color: #000;
+      color: #fff;
+      border-color: #000;
+    }
+
+    .btn-primary:hover {
+      background-color: #3DE08A;
+      border-color: #3DE08A;
+    }
+
+    .btn-success {
+      background-color: #000;
+      color: #fff;
+      border-color: #000;
+    }
+
+    .btn-success:hover {
+      background-color: #3DE08A;
+      border-color: #3DE08A;
+    }
+
+    h1, .card-title {
+      color: #3DE08A;
+    }
+
+    .card {
+      border-color: #3DE08A;
+    }
+
+    .form-group {
+      color: #000;
+    }
+    .container {
+      padding: 2rem;
+      border-radius: 15px;
+    }
+
+    .btn-primary:active,
+    .btn-primary:focus {
+      background-color: #000 !important;
+      border-color: #000 !important;
+      box-shadow: none !important;
     }
   </style>
 </head>
 <body>
   <div class="container py-4">
-    <h1 class="mb-4" data-localizable="editWebsites"></h1>
+    <h1 class="mb-4 title-text" data-localizable="editWebsites"></h1>
 
     <!-- Instruction Section -->
     <div class="card mb-4">
@@ -69,7 +124,7 @@
           <p class="small" data-localizable="twitter"></p>
         </div>
         <div class="col-md-2">
-          <a href="https://github.com/mazzzystar" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+          <a href="https://github.com/mazzzystar/Focus" target="_blank"><i class="fab fa-github fa-2x"></i></a>
           <p class="small" data-localizable="github"></p>
         </div>
         <div class="col-md-1">

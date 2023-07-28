@@ -28,16 +28,20 @@
     "description": "反转行为开关的标签。"
   },
   "reverseOff": {
-    "message": "未反转时，双击将关闭上面列表中未列出的所有标签页。",
-    "description": "当反转行为关闭时的解释文本。"
+    "message": "当不反转时，双击将关闭所有不在以下列表中的标签页。",
+    "description": "反转行为关闭时的解释文本。"
   },
   "reverseOn": {
-    "message": "反转时，双击将关闭上面列表中列出的所有域名和子域名的所有标签页。",
-    "description": "当反转行为打开时的解释文本。"
+    "message": "当反转时，双击将关闭所有在以下列表中的域和子域的标签页。",
+    "description": "反转行为开启时的解释文本。"
   },
   "addWebsite": {
     "message": "添加网站",
     "description": "“添加网站”按钮上的文字。"
+  },
+  "removeWebsite": {
+  "message": "删除",
+  "description": "从列表中删除网站。"
   },
   "save": {
     "message": "保存",
