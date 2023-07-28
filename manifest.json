@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "__MSG_appName__",
   "description": "__MSG_appDescription__",
-  "version": "1.0.1",
+  "version": "1.0",
   "default_locale": "en",
   "background": {
     "service_worker": "background.js"
@@ -14,7 +14,7 @@
       "128": "images/icon128.png"
     }
   },
-  "permissions": ["tabs", "scripting", "storage", "contextMenus"],
+  "permissions": ["tabs", "storage", "contextMenus"],
   "options_page": "options.html",
   "icons": {
     "16": "images/icon16.png",
