@@ -22,7 +22,7 @@ chrome.action.onClicked.addListener((tab) => {
           var inList = websites.some(function(website) {
             return tab.url.indexOf(website) === 0;
           });
-          if ((reverse && inList) || (!reverse && !inList)) {
+          if ((reverse && !inList) || (!reverse && inList)) { // Change the logic here
             chrome.tabs.remove(tab.id);
           }
         }

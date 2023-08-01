@@ -16,11 +16,11 @@
     "description": "The title for the instruction section."
   },
   "instruction1": {
-    "message": "Single click on the extension icon to open all websites listed below in new tabs.",
+    "message": "Single click to open all websites listed below in new tabs.",
     "description": "The first part of the instruction."
   },
   "instruction2": {
-    "message": "Double click on the extension icon to close all tabs that are not included in the website list.",
+    "message": "Double click to close all tabs for domains and subdomains listed below.",
     "description": "The second part of the instruction."
   },
   "reverseBehavior": {
@@ -28,11 +28,11 @@
     "description": "The label for the reverse behavior switch."
   },
   "reverseOff": {
-    "message": "When not reversed, double-clicking will close all tabs that are not in the list below.",
+    "message": "When not reversed, double-clicking will close all tabs for domains and subdomains listed below.",
     "description": "The explanation text for when the reverse behavior is off."
   },
   "reverseOn": {
-    "message": "When reversed, double-clicking will close all tabs for domains and subdomains listed below.",
+    "message": "When reversed, double-clicking will close all tabs that are not in the list below.",
     "description": "The explanation text for when the reverse behavior is on."
   },
   "addWebsite": {

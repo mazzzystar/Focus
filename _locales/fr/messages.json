@@ -16,24 +16,24 @@
     "description": "Le titre pour la section d'instructions."
   },
   "instruction1": {
-    "message": "Cliquez une fois sur l'icône de l'extension pour ouvrir tous les sites Web listés ci-dessous dans de nouveaux onglets.",
-    "description": "La première partie de l'instruction."
+    "message": "Un clic pour ouvrir tous les sites web de la liste.",
+    "description": "The first part of the instruction."
   },
   "instruction2": {
-    "message": "Double-cliquez sur l'icône de l'extension pour fermer tous les onglets qui ne sont pas inclus dans la liste des sites Web.",
-    "description": "La deuxième partie de l'instruction."
+    "message": "Double-clic pour fermer tous les sites web de la liste.",
+    "description": "The second part of the instruction."
   },
   "reverseBehavior": {
-    "message": "Comportement inversé :",
-    "description": "L'étiquette pour le commutateur de comportement inverse."
+    "message": "Comportement inversé:",
+    "description": "The label for the reverse behavior switch."
   },
   "reverseOff": {
-    "message": "Lorsqu'il n'est pas inversé, le double-clic fermera tous les onglets qui ne figurent pas dans la liste ci-dessous.",
-    "description": "Le texte d'explication pour quand le comportement inversé est désactivé."
+    "message": "Sans inversion, le double-clic fermera tous les sites web de la liste.",
+    "description": "The explanation text for when the reverse behavior is off."
   },
   "reverseOn": {
-    "message": "Lorsqu'il est inversé, le double-clic fermera tous les onglets pour les domaines et sous-domaines répertoriés ci-dessous.",
-    "description": "Le texte d'explication pour quand le comportement inversé est activé."
+    "message": "Inversé, le double-clic fermera tous les sites web qui ne sont pas dans la liste.",
+    "description": "The explanation text for when the reverse behavior is on."
   },
   "addWebsite": {
     "message": "Ajouter un site Web",

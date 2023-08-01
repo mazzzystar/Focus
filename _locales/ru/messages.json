@@ -16,24 +16,24 @@
     "description": "Заголовок для раздела инструкций."
   },
   "instruction1": {
-    "message": "Одиночный щелчок по значку расширения откроет все сайты, перечисленные ниже, в новых вкладках.",
-    "description": "Первая часть инструкции."
+    "message": "Одинарный клик откроет все сайты из списка.",
+    "description": "The first part of the instruction."
   },
   "instruction2": {
-    "message": "Двойной щелчок по значку расширения закроет все вкладки, которые не включены в список веб-сайтов.",
-    "description": "Вторая часть инструкции."
+    "message": "Двойной клик закроет все сайты из списка.",
+    "description": "The second part of the instruction."
   },
   "reverseBehavior": {
-    "message": "Обратное поведение:",
-    "description": "Метка для переключателя обратного поведения."
+    "message": "Обратное Поведение:",
+    "description": "The label for the reverse behavior switch."
   },
   "reverseOff": {
-    "message": "Когда не активировано обратное действие, двойной клик закроет все вкладки, которые не указаны в списке ниже.",
-    "description": "Текст объяснения, когда обратное действие выключено."
+    "message": "Если не перевернуть, двойной клик закроет все сайты из списка.",
+    "description": "The explanation text for when the reverse behavior is off."
   },
   "reverseOn": {
-    "message": "Когда активировано обратное действие, двойной клик закроет все вкладки для доменов и поддоменов, перечисленных ниже.",
-    "description": "Текст объяснения, когда обратное действие включено."
+    "message": "Если перевернуть, двойной клик закроет все сайты, которых нет в списке.",
+    "description": "The explanation text for when the reverse behavior is on."
   },
   "addWebsite": {
     "message": "Добавить веб-сайт",

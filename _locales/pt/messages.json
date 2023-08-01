@@ -16,24 +16,24 @@
     "description": "O título para a seção de instruções."
   },
   "instruction1": {
-    "message": "Clique uma vez no ícone da extensão para abrir todos os sites listados abaixo em novas guias.",
-    "description": "A primeira parte das instruções."
+    "message": "Um clique para abrir todos os sites da lista.",
+    "description": "The first part of the instruction."
   },
   "instruction2": {
-    "message": "Clique duas vezes no ícone da extensão para fechar todas as guias que não estão incluídas na lista de sites.",
-    "description": "A segunda parte das instruções."
+    "message": "Duplo clique para fechar todos os sites da lista.",
+    "description": "The second part of the instruction."
   },
   "reverseBehavior": {
     "message": "Comportamento Reverso:",
-    "description": "O rótulo para a chave de comportamento reverso."
+    "description": "The label for the reverse behavior switch."
   },
   "reverseOff": {
-    "message": "Quando não revertido, um duplo clique fechará todas as abas que não estão na lista abaixo.",
-    "description": "O texto de explicação para quando o comportamento reverso está desligado."
+    "message": "Sem reversão, o duplo clique fechará todos os sites da lista.",
+    "description": "The explanation text for when the reverse behavior is off."
   },
   "reverseOn": {
-    "message": "Quando revertido, um duplo clique fechará todas as abas para domínios e subdomínios listados abaixo.",
-    "description": "O texto de explicação para quando o comportamento reverso está ligado."
+    "message": "Reverso, o duplo clique fechará todos os sites que não estão na lista.",
+    "description": "The explanation text for when the reverse behavior is on."
   },
   "addWebsite": {
     "message": "Adicionar Site",

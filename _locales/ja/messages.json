@@ -16,24 +16,24 @@
     "description": "インストラクションセクションのタイトル。"
   },
   "instruction1": {
-    "message": "拡張機能のアイコンを一度クリックして、以下にリストされているすべてのウェブサイトを新しいタブで開きます。",
-    "description": "インストラクションの第1部。"
+    "message": "リスト内のすべてのウェブサイトを開くには、クリックしてください。",
+    "description": "The first part of the instruction."
   },
   "instruction2": {
-    "message": "拡張機能のアイコンをダブルクリックして、ウェブサイトリストに含まれていないすべてのタブを閉じます。",
-    "description": "インストラクションの第2部。"
+    "message": "リスト内のすべてのウェブサイトを閉じるには、ダブルクリックしてください。",
+    "description": "The second part of the instruction."
   },
   "reverseBehavior": {
-    "message": "逆の動作：",
-    "description": "逆動作スイッチのラベル。"
+    "message": "逆の動作:",
+    "description": "The label for the reverse behavior switch."
   },
   "reverseOff": {
-    "message": "反転しない場合、ダブルクリックすると、以下のリストにないすべてのタブが閉じます。",
-    "description": "逆動作がオフの場合の説明文。"
+    "message": "逆にしない場合、ダブルクリックでリスト内のすべてのウェブサイトを閉じます。",
+    "description": "The explanation text for when the reverse behavior is off."
   },
   "reverseOn": {
-    "message": "反転すると、ダブルクリックすると、以下にリストされているドメインおよびサブドメインのすべてのタブが閉じます。",
-    "description": "逆動作がオンの場合の説明文。"
+    "message": "逆にした場合、ダブルクリックでリストにないすべてのウェブサイトを閉じます。",
+    "description": "The explanation text for when the reverse behavior is on."
   },
   "addWebsite": {
     "message": "ウェブサイトを追加する",

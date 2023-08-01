@@ -16,24 +16,24 @@
     "description": "निर्देश खंड के लिए शीर्षक।"
   },
   "instruction1": {
-    "message": "एक्सटेंशन आइकन पर एक बार क्लिक करें ताकि नीचे सूचीबद्ध सभी वेबसाइटें नए टैब्स में खुल जाएं।",
-    "description": "निर्देश का पहला हिस्सा।"
+    "message": "सूची में सभी वेबसाइट खोलने के लिए एक क्लिक करें।",
+    "description": "The first part of the instruction."
   },
   "instruction2": {
-    "message": "एक्सटेंशन आइकन पर डबल क्लिक करें ताकि वेबसाइट सूची में शामिल नहीं होने वाले सभी टैब्स बंद हो जाएं।",
-    "description": "निर्देश का दूसरा हिस्सा।"
+    "message": "सूची में सभी वेबसाइट बंद करने के लिए डबल क्लिक करें।",
+    "description": "The second part of the instruction."
   },
   "reverseBehavior": {
-    "message": "उल्टा व्यवहार:",
-    "description": "उल्टा व्यवहार स्विच के लिए लेबल।"
+    "message": "उल्टी व्यावसायिकता:",
+    "description": "The label for the reverse behavior switch."
   },
   "reverseOff": {
-    "message": "जब उलटा नहीं होता है, तो डबल-क्लिक करने पर सभी टैब बंद हो जाएंगे जो निम्न सूची में नहीं हैं।",
-    "description": "जब उलटा व्यवहार बंद होता है, तो स्पष्टीकरण पाठ।"
+    "message": "जब उल्टा नहीं होता है, तो डबल क्लिक सूची में सभी वेबसाइट बंद कर देगा।",
+    "description": "The explanation text for when the reverse behavior is off."
   },
   "reverseOn": {
-    "message": "जब यह उलटा होता है, तो डबल-क्लिक करने पर सभी टैब बंद हो जाएंगे जो नीचे सूचीबद्ध डोमेन और सबडोमेन के लिए हैं।",
-    "description": "जब उलटा व्यवहार चालू होता है, तो स्पष्टीकरण पाठ।"
+    "message": "जब उल्टा होता है, तो डबल क्लिक सूची में नहीं होने वाली सभी वेबसाइट बंद कर देगा।",
+    "description": "The explanation text for when the reverse behavior is on."
   },
   "addWebsite": {
     "message": "वेबसाइट जोड़ें",

@@ -16,24 +16,24 @@
     "description": "说明部分的标题。"
   },
   "instruction1": {
-    "message": "单击扩展图标，可在新标签页中打开下面列出的所有网站。",
-    "description": "说明的第一部分。"
+    "message": "单击打开列表中的所有网站。",
+    "description": "The first part of the instruction."
   },
   "instruction2": {
-    "message": "双击扩展图标，可关闭不包括在网站列表中的所有标签页。",
-    "description": "说明的第二部分。"
+    "message": "双击关闭列表中的所有网站。",
+    "description": "The second part of the instruction."
   },
   "reverseBehavior": {
-    "message": "反转行为：",
-    "description": "反转行为开关的标签。"
+    "message": "反转行为:",
+    "description": "The label for the reverse behavior switch."
   },
   "reverseOff": {
-    "message": "当不反转时，双击将关闭所有不在以下列表中的标签页。",
-    "description": "反转行为关闭时的解释文本。"
+    "message": "未反转时，双击将关闭列表中的所有网站。",
+    "description": "The explanation text for when the reverse behavior is off."
   },
   "reverseOn": {
-    "message": "当反转时，双击将关闭所有在以下列表中的域和子域的标签页。",
-    "description": "反转行为开启时的解释文本。"
+    "message": "反转时，双击将关闭不在列表中的所有网站。",
+    "description": "The explanation text for when the reverse behavior is on."
   },
   "addWebsite": {
     "message": "添加网站",

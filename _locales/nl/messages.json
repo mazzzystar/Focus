@@ -16,24 +16,24 @@
     "description": "De kop voor de instructiesectie."
   },
   "instruction1": {
-    "message": "Klik één keer op het extensie-icoon om alle hieronder vermelde websites in nieuwe tabbladen te openen.",
-    "description": "Het eerste deel van de instructie."
+    "message": "Eén klik om alle websites in de lijst te openen.",
+    "description": "The first part of the instruction."
   },
   "instruction2": {
-    "message": "Dubbelklik op het extensie-icoon om alle tabbladen te sluiten die niet in de lijst met websites zijn opgenomen.",
-    "description": "Het tweede deel van de instructie."
+    "message": "Dubbelklik om alle websites in de lijst te sluiten.",
+    "description": "The second part of the instruction."
   },
   "reverseBehavior": {
-    "message": "Omkerend gedrag:",
-    "description": "Het label voor de omgekeerd-gedrag-schakelaar."
+    "message": "Omgekeerd Gedrag:",
+    "description": "The label for the reverse behavior switch."
   },
   "reverseOff": {
-    "message": "Als het niet is omgekeerd, sluit dubbelklikken alle tabbladen die niet in de onderstaande lijst staan.",
-    "description": "De uitlegtekst voor wanneer het omgekeerde gedrag uit staat."
+    "message": "Zonder omkering, sluit dubbelklikken alle websites in de lijst.",
+    "description": "The explanation text for when the reverse behavior is off."
   },
   "reverseOn": {
-    "message": "Wanneer het is omgekeerd, sluit dubbelklikken alle tabbladen voor domeinen en subdomeinen die hieronder worden vermeld.",
-    "description": "De uitlegtekst voor wanneer het omgekeerde gedrag aan staat."
+    "message": "Omgekeerd, sluit dubbelklikken alle websites die niet in de lijst staan.",
+    "description": "The explanation text for when the reverse behavior is on."
   },
   "addWebsite": {
     "message": "Website toevoegen",

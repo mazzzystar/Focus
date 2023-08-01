@@ -15,21 +15,39 @@
       color: #000;
      }
 
-    .footer {
-      padding: 10px 0;
-      background-color: #3DE08A;
+  .footer {
+    padding: 5px 0; /* Reduced vertical padding */
+    background-color: #3DE08A; /* Footer Background */
+  }
+
+  .footer .col-md-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+    .footer a {
+      color: #fff; /* Link color */
+      transition: color 0.3s ease; /* Transition effect on hover */
     }
 
-    .footer .fas,
-    .footer .fab {
-      color: #3DE08A;
-      font-size: 1.5rem;  /* Adjust icon size */
+    .footer a:hover {
+      color: #000; /* Hover color for both icon and text */
+    }
+
+    .footer .fas, .footer .fab {
+      font-size: 1.5rem;
     }
 
     .footer p {
-      margin-top: 5px;    /* Adjust margin */
-      font-size: 0.8rem;  /* Adjust font size */
-      color: #000;
+      margin-top: 2px; /* Adjust margin */
+      font-size: 0.8rem; /* Adjust font size */
+      margin-bottom: 0; /* Reduce space below paragraph */
+    }
+
+    .footer .col-md-3 {
+      padding-left: 50px; /* Reduce horizontal padding */
+      padding-right: 50px;
     }
 
     .btn-primary {
@@ -112,28 +130,30 @@
     </form>
   </div>
 
-  <div class="footer bg-light">
+  <div class="footer">
     <div class="container">
-      <div class="row justify-content-center text-center">
-        <div class="col-md-2">
-          <a href="https://www.buymeacoffee.com/mazzystar" target="_blank"><i class="fas fa-coffee fa-2x"></i></a>
-          <p class="small" data-localizable="buyMeACoffee"></p>
+      <div class="row justify-content-around text-center">
+        <div class="col-md-3">
+          <a href="https://www.buymeacoffee.com/mazzystar" target="_blank">
+            <i class="fas fa-coffee fa-2x"></i>
+            <p class="small" data-localizable="buyMeACoffee"></p>
+          </a>
         </div>
-        <div class="col-md-2">
-          <a href="https://twitter.com/immazzystar" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-          <p class="small" data-localizable="twitter"></p>
+        <div class="col-md-3">
+          <a href="https://twitter.com/immazzystar" target="_blank">
+            <i class="fab fa-twitter fa-2x"></i>
+            <p class="small" data-localizable="twitter"></p>
+          </a>
         </div>
-        <div class="col-md-2">
-          <a href="https://github.com/mazzzystar/Focus" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-          <p class="small" data-localizable="github"></p>
-        </div>
-        <div class="col-md-1">
-          <!-- This is an empty column for spacing -->
+        <div class="col-md-3">
+          <a href="https://github.com/mazzzystar/Focus" target="_blank">
+            <i class="fab fa-github fa-2x"></i>
+            <p class="small" data-localizable="github"></p>
+          </a>
         </div>
       </div>
     </div>
   </div>
-
 
   <script src="options.js"></script>
 </body>

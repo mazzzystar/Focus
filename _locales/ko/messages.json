@@ -20,24 +20,24 @@
     "description": "지시 사항 섹션의 제목."
   },
   "instruction1": {
-    "message": "확장 프로그램 아이콘을 한 번 클릭하여 아래에 나열된 모든 웹사이트를 새 탭에서 엽니다.",
-    "description": "지시 사항의 첫 번째 부분."
+    "message": "목록에 있는 모든 웹사이트를 열려면 클릭하세요.",
+    "description": "The first part of the instruction."
   },
   "instruction2": {
-    "message": "확장 프로그램 아이콘을 더블 클릭하여 웹사이트 목록에 포함되지 않은 모든 탭을 닫습니다.",
-    "description": "지시 사항의 두 번째 부분."
+    "message": "목록에 있는 모든 웹사이트를 닫으려면 더블 클릭하세요.",
+    "description": "The second part of the instruction."
+  },
+  "reverseBehavior": {
+    "message": "반대 동작:",
+    "description": "The label for the reverse behavior switch."
   },
   "reverseOff": {
-    "message": "반전되지 않은 경우, 더블 클릭하면 아래 목록에 없는 모든 탭이 닫힙니다.",
-    "description": "반전 동작이 꺼져 있는 경우 설명 텍스트입니다."
+    "message": "반대로 하지 않으면 더블 클릭으로 목록에 있는 모든 웹사이트를 닫습니다.",
+    "description": "The explanation text for when the reverse behavior is off."
   },
   "reverseOn": {
-    "message": "반전되면, 더블 클릭하면 아래에 나열된 도메인 및 서브도메인의 모든 탭이 닫힙니다.",
-    "description": "반전 동작이 켜져 있는 경우 설명 텍스트입니다."
-  },
-  "reverseOn": {
-    "message": "반대로 설정된 경우 더블 클릭하면 위 목록에 있는 도메인 및 하위 도메인의 모든 탭이 닫힙니다.",
-    "description": "반대 동작이 켜져있을 때의 설명 텍스트."
+    "message": "반대로 하면 더블 클릭으로 목록에 없는 모든 웹사이트를 닫습니다.",
+    "description": "The explanation text for when the reverse behavior is on."
   },
   "addWebsite": {
     "message": "웹사이트 추가",

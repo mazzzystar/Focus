@@ -12,28 +12,28 @@
     "description": "網站編輯區段的標題。"
   },
   "howToUse": {
-    "message": "如何使用此擴充功能？",
+    "message": "如何使用？",
     "description": "指示區段的標題。"
   },
   "instruction1": {
-    "message": "點擊擴充功能圖示一次，即可在新分頁中開啟下列所有網站。",
-    "description": "指示的第一部分。"
+    "message": "單擊打開列表中的所有網站。",
+    "description": "The first part of the instruction."
   },
   "instruction2": {
-    "message": "雙擊擴充功能圖示，即可關閉不在網站清單中的所有分頁。",
-    "description": "指示的第二部分。"
+    "message": "雙擊關閉列表中的所有網站。",
+    "description": "The second part of the instruction."
   },
   "reverseBehavior": {
-    "message": "反向行為：",
-    "description": "反向行為開關的標籤。"
+    "message": "反轉行為:",
+    "description": "The label for the reverse behavior switch."
   },
   "reverseOff": {
-    "message": "當不反轉時，雙擊將關閉所有不在以下列表中的標籤頁。",
-    "description": "反轉行為關閉時的解釋文本。"
+    "message": "未反轉時，雙擊將關閉列表中的所有網站。",
+    "description": "The explanation text for when the reverse behavior is off."
   },
   "reverseOn": {
-    "message": "當反轉時，雙擊將關閉所有在以下列表中的域和子域的標籤頁。",
-    "description": "反轉行為開啟時的解釋文本。"
+    "message": "反轉時，雙擊將關閉不在列表中的所有網站。",
+    "description": "The explanation text for when the reverse behavior is on."
   },
   "addWebsite": {
     "message": "新增網站",

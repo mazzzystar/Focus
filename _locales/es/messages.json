@@ -16,24 +16,24 @@
     "description": "El título para la sección de instrucciones."
   },
   "instruction1": {
-    "message": "Haz clic una vez en el icono de la extensión para abrir todos los sitios web listados a continuación en nuevas pestañas.",
-    "description": "La primera parte de la instrucción."
+    "message": "Un clic para abrir todos los sitios web en la lista.",
+    "description": "The first part of the instruction."
   },
   "instruction2": {
-    "message": "Haz doble clic en el icono de la extensión para cerrar todas las pestañas que no estén incluidas en la lista de sitios web.",
-    "description": "La segunda parte de la instrucción."
+    "message": "Doble clic para cerrar todos los sitios web en la lista.",
+    "description": "The second part of the instruction."
   },
   "reverseBehavior": {
     "message": "Comportamiento inverso:",
-    "description": "La etiqueta para el interruptor de comportamiento inverso."
+    "description": "The label for the reverse behavior switch."
   },
   "reverseOff": {
-    "message": "Cuando no está invertido, hacer doble clic cerrará todas las pestañas que no estén en la lista de abajo.",
-    "description": "El texto de explicación para cuando la comportamiento inverso está apagado."
+    "message": "Sin invertir, el doble clic cerrará todos los sitios web en la lista.",
+    "description": "The explanation text for when the reverse behavior is off."
   },
   "reverseOn": {
-    "message": "Cuando está invertido, hacer doble clic cerrará todas las pestañas de los dominios y subdominios que se enumeran a continuación.",
-    "description": "El texto de explicación para cuando la comportamiento inverso está encendido."
+    "message": "Invertido, el doble clic cerrará todos los sitios web que no estén en la lista.",
+    "description": "The explanation text for when the reverse behavior is on."
   },
   "addWebsite": {
     "message": "Agregar sitio web",

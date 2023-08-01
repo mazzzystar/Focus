@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', function() {
   // Load the websites and reverse switch state from storage and populate the form
   chrome.storage.sync.get(['websites', 'reverse'], function(data) {
     let websites = data.websites || [];
-    reverseSwitch.checked = data.reverse || true;
+    reverseSwitch.checked = data.reverse || false;
     reverseExplanation.textContent = reverseSwitch.checked ?
       chrome.i18n.getMessage("reverseOn") :
       chrome.i18n.getMessage("reverseOff");
